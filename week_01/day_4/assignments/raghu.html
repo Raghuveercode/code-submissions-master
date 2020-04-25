@@ -1,0 +1,307 @@
+Nu Html Checker
+This tool is an ongoing experiment in better HTML checking, and its behavior remains subject to change
+
+Showing results for contents of text-input area
+Checker Input
+Show sourceoutlineimage report
+
+Check by
+Enter the URL for an HTML, CSS, or SVG document
+
+Use the Message Filtering button below to hide/show particular messages, and to see total counts of errors and warnings.
+Message Filtering
+Error: Attribute link not allowed on element a at this point.
+
+From line 10, column 30; to line 10, column 77
+
+isit this <a link src="https://en.wikipedia.org/wiki/Pug"></a></
+
+Attributes for element a:
+Global attributes
+href — Address of the hyperlink
+target — Browsing context for hyperlink navigation
+download — Whether to download the resource instead of navigating to it, and its file name if so
+ping — URLs to ping
+rel — Relationship between the location in the document containing the hyperlink and the destination resource
+hreflang — Language of the linked resource
+type — Hint for the type of the referenced resource
+referrerpolicy — Referrer policy for fetches initiated by the element
+Error: Attribute src not allowed on element a at this point.
+
+From line 10, column 30; to line 10, column 77
+
+isit this <a link src="https://en.wikipedia.org/wiki/Pug"></a></
+
+Attributes for element a:
+Global attributes
+href — Address of the hyperlink
+target — Browsing context for hyperlink navigation
+download — Whether to download the resource instead of navigating to it, and its file name if so
+ping — URLs to ping
+rel — Relationship between the location in the document containing the hyperlink and the destination resource
+hreflang — Language of the linked resource
+type — Hint for the type of the referenced resource
+referrerpolicy — Referrer policy for fetches initiated by the element
+Error: Attribute href not allowed on element iframe at this point.
+
+From line 12, column 3; to line 12, column 184
+
+! </h3>?		<iframe height="100" href="https://www.youtube.com/embed/l3S7zyzg4P8" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> Your 
+
+Attributes for element iframe:
+Global attributes
+src — Address of the resource
+srcdoc — A document to render in the iframe
+name — Name of nested browsing context
+sandbox — Security rules for nested content
+allow — Feature policy to be applied to the iframe's contents
+allowfullscreen — Whether to allow the iframe's contents to use requestFullscreen()
+allowpaymentrequest — Whether the iframe's contents are allowed to use the PaymentRequest interface to make payment requests
+width — Horizontal dimension
+height — Vertical dimension
+referrerpolicy — Referrer policy for fetches initiated by the element
+Error: The frameborder attribute on the iframe element is obsolete. Use CSS instead.
+
+From line 12, column 3; to line 12, column 184
+
+! </h3>?		<iframe height="100" href="https://www.youtube.com/embed/l3S7zyzg4P8" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> Your 
+
+Error: Text not allowed in element iframe in this context.
+
+From line 12, column 185; to line 12, column 223
+
+ullscreen> Your browser Does not support iframes!</ifra
+
+Content model for element iframe:
+Nothing.
+Error: Text not allowed in element ul in this context.
+
+From line 13, column 84; to line 13, column 101
+
+lank"><ul>Labrador Retriever</ul><
+
+Content model for element ul:
+Zero or more li and script-supporting elements.
+Error: A slash was not immediately followed by >.
+
+At line 14, column 18
+
+	<ul><a https://en.wikipedia.o
+
+Error: A slash was not immediately followed by >.
+
+At line 14, column 19
+
+<ul><a https://en.wikipedia.or
+
+Error: A slash was not immediately followed by >.
+
+At line 14, column 36
+
+.wikipedia.org/wiki/Beagle>Bea
+
+Error: A slash was not immediately followed by >.
+
+At line 14, column 41
+
+pedia.org/wiki/Beagle>Beagle</
+
+Warning: Attribute https: is not serializable as XML 1.0.
+
+From line 14, column 8; to line 14, column 47
+
+a>?			<ul><a https://en.wikipedia.org/wiki/Beagle>Beagle
+
+Error: Element a not allowed as child of element ul in this context. (Suppressing further errors from this subtree.)
+
+From line 14, column 8; to line 14, column 47
+
+a>?			<ul><a https://en.wikipedia.org/wiki/Beagle>Beagle
+
+Contexts in which element a may be used:
+Where phrasing content is expected.
+Content model for element ul:
+Zero or more li and script-supporting elements.
+Error: A slash was not immediately followed by >.
+
+At line 15, column 18
+
+	<ul><a https://en.wikipedia.o
+
+Error: A slash was not immediately followed by >.
+
+At line 15, column 19
+
+<ul><a https://en.wikipedia.or
+
+Error: A slash was not immediately followed by >.
+
+At line 15, column 36
+
+.wikipedia.org/wiki/German_She
+
+Error: A slash was not immediately followed by >.
+
+At line 15, column 41
+
+pedia.org/wiki/German_Shepherd
+
+Warning: Attribute https: is not serializable as XML 1.0.
+
+From line 15, column 8; to line 15, column 56
+
+l>?			<ul><a https://en.wikipedia.org/wiki/German_Shepherd> Germa
+
+Error: Element a not allowed as child of element ul in this context. (Suppressing further errors from this subtree.)
+
+From line 15, column 8; to line 15, column 56
+
+l>?			<ul><a https://en.wikipedia.org/wiki/German_Shepherd> Germa
+
+Contexts in which element a may be used:
+Where phrasing content is expected.
+Content model for element ul:
+Zero or more li and script-supporting elements.
+Error: Element dl is missing a required child element.
+
+From line 20, column 4; to line 20, column 7
+
+		<dl>?			<dd> Dairy
+
+Content model for element dl:
+Either: Zero or more groups each consisting of one or more dt elements followed by one or more dd elements, optionally intermixed with script-supporting elements.
+Or: One or more div elements, optionally intermixed with script-supporting elements.
+Error: Element dl not allowed as child of element dl in this context. (Suppressing further errors from this subtree.)
+
+From line 22, column 4; to line 22, column 7
+
+</dt> ?			<dl>?				<
+
+Contexts in which element dl may be used:
+Where flow content is expected.
+Content model for element dl:
+Either: Zero or more groups each consisting of one or more dt elements followed by one or more dd elements, optionally intermixed with script-supporting elements.
+Or: One or more div elements, optionally intermixed with script-supporting elements.
+Error: Element dl is missing a required instance of child element dd.
+
+From line 28, column 3; to line 28, column 7
+
+		</dl>?		</dl>?		<h2
+
+Content model for element dl:
+Either: Zero or more groups each consisting of one or more dt elements followed by one or more dd elements, optionally intermixed with script-supporting elements.
+Or: One or more div elements, optionally intermixed with script-supporting elements.
+Error: The border attribute on the table element is obsolete. Use CSS instead.
+
+From line 31, column 3; to line 31, column 20
+
+! </h3>?		<table border="1">?		  <
+
+Error: Misplaced non-space characters inside a table.
+
+From line 32, column 9; to line 34, column 9
+
+>?		  <tr>?		  Header?		  </tr>?		  <
+
+Fatal Error: Cannot recover after last error. Any further errors will be ignored.
+
+From line 32, column 9; to line 34, column 9
+
+>?		  <tr>?		  Header?		  </tr>?		  <
+
+Document checking completed.
+
+Source
+<!DOCTYPE html>?
+<title> My First Blog! </title>?
+<body>?
+	<div class='main-content'>?
+		<h1>Welcome to my first blog!</h1> <h3> Hope you enjoy reading it!</h3>?
+		<img src = "pug.jpg" alt = Mypug!>?
+		<div>My Dog!</div>?
+		 Here is some information on pugs ! ?
+		<p>The Pug is a breed of dog with physically distinctive features of a wrinkly, short-muzzled face, and curled tail. The breed has a fine, glossy coat that comes in a variety of colours, most often fawn or black, and a compact square body with well-developed muscles.Pugs were brought from China to Europe in the sixteenth century and were popularized in Western Europe by the House of Orange of the Netherlands, and the House of Stuart. In the United Kingdom, in the nineteenth century, Queen Victoria developed a passion for pugs which she<br> passed on to other members of the Royal family.?
+		<p>To read more visit this <a link src="https://en.wikipedia.org/wiki/Pug"></a></p>?
+		<h3> Here is a cute video of pugs! </h3>?
+		<iframe height="100" href="https://www.youtube.com/embed/l3S7zyzg4P8" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> Your browser Does not support iframes!</iframe> ?
+			<a href="https://en.wikipedia.org/wiki/Labrador_Retriever" target = "blank"><ul>Labrador Retriever</ul></a>?
+			<ul><a https://en.wikipedia.org/wiki/Beagle>Beagle</a> </ul>?
+			<ul><a https://en.wikipedia.org/wiki/German_Shepherd> German Shepherd </a>?
+			</ul>?
+		<h3> This is a short Discription List of other animals I like!</h3>?
+		<h2> I also included some photos of each animal!</h2>?
+		<dl>?
+			<dd> Dairy Cows! </dd>?
+			<dt>Dairy cattle (also called dairy cows) are cattle cows bred for the ability to produce large quantities of milk, from which dairy products are made. Dairy cows generally are of the species Bos taurus. </dt> ?
+			<dl>?
+				<dd> Lions!</dd>?
+				<dt> The lion (Panthera leo) is a species in the family Felidae; it is a muscular, deep-chested cat with a short, rounded head, a reduced neck and round ears, and a hairy tuft at the end of its tail. The lion is sexually dimorphic; males are larger than females with a typical weight range of 150 to 250 kg (330 to 550 lb) for males and 120 to 182 kg (265 to 400 lb) for females </dt>?
+				<dd> Elephants </dd>?
+				<dl>Elephants are large mammals of the family Elephantidae in the order Proboscidea. Three species are currently recognised: the African bush elephant (Loxodonta africana), the African forest elephant (L. cyclotis), and the Asian elephant (Elephas maximus). </dl> ?
+			</dl>?
+		</dl>?
+		<h2>Photos!</h2>?
+		<h3> I am still learning HTML so this is a sample table I made! </h3>?
+		<table border="1">?
+		  <tr>?
+		  Header?
+		  </tr>?
+		  <tr>?
+		    <td colspan="2">Row 1, cell 1</td>?
+		    <td>Row 1, cell 3</td>?
+		    <td>Row 1, cell 4</td>?
+		  </tr>?
+		  <tr>?
+		    <td >Row 2, cell 1</td>?
+		    <td rowspan="3">Row 2, cell 2</td>?
+		    <td >Row 2, cell 3</td>?
+		    <td>Row 2, cell 4</td>?
+		  </tr>?
+		  <tr>?
+		    <td>Row 3, cell 4</td>?
+		  </tr>?
+		  <tr rowspan = "26">?
+		    <td>Row 4, cell 4</td>?
+		  </tr>?
+		  <tr>?
+		    <td>Row 5, cell 4</td>?
+		  </tr>?
+		  <tr>?
+		    <td>Row 6, cell 4</td>?
+		  </tr>?
+		  <tr colspan="4">?
+		    <td>Row 7, cell 1</td>?
+		    <td>Row 7, cell 2</td>?
+		    <td>Row 7, cell 3</td>?
+		    <td>Row 7, cell 4</td>?
+		  </tr>?
+		  <tr>?
+		    <td>Row 8, cell 4</td>?
+		  </tr>?
+		  <tr colspan="20">?
+		    <td>Row 9, cell 4</td>?
+		  </tr >?
+		  <tr>?
+		    <td>Row 10, cell 4</td>?
+		  </tr>?
+		  <tr>?
+		    <td>Row 11, cell 4</td>?
+		  </tr>?
+		</table>?
+		<h3> I included an image of what the table should look like below! </h2>?
+		<img src="images/sample_table.png" alt="Sample table image">?
+?
+		<p> That's all for my first blog, if you want to contact me use the following form! </p>?
+		<form action="" method="post">?
+		  <div>?
+		    <label for="name">Name:</label>?
+		    <input type="password" name="user_name">?
+		  </div>?
+		    <label for="mail">E-mail:</label>?
+		    <input type="image"  name="user_mail">?
+		
+Used the HTML parser.
+
+Total execution time 28 milliseconds.
+
+About this checker • Report an issue • Version: 20.4.23

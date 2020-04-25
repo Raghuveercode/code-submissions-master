@@ -1,0 +1,8 @@
+<table> 
+<tr>
+  <td colspan= "2" style="hight:1200px; width: 800px; background-color:blue"</td>
+  <tr>
+  <td style="hight:50000px; width: 400px; background-color:red"</td>
+  <td style="hight:50000px; width: 400px; background-color:green"</td>
+  </tr>
+</table>
